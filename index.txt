@@ -30,20 +30,26 @@ EXPERIENCE
 - PBSC Urban Solutions 
     Full Stack Developer, November 2016 - July 2019
   
-  PBSC Urban Solutions is a corporation based in Montreal (Longueuil), that operates bicycle sharing systems in Canada, United States, Mexico, United Kingdom and Australia.
+  PBSC Urban Solutions is a corporation based in Montreal (Longueuil), 
+  that operates bicycle sharing systems in Canada, United States, Mexico, United Kingdom and Australia.
+  
   Responsibilities:
     Participating in the elaboration of a Node.js logic stack.
     Creating user friendly interface with HTML and CSS.
     Capturing user experience metrics.
     Creating tools boosting development process.
     Cooperating with QA team, identifying and solving issues.
+  
   Technology Used: JavaScript, Node.js, jQuery, Bash, HTML, CSS, XML, JSON, Jenkins, Maven, JIRA, GIT and GitLab
 
 - Motorola Solutions Systems Polska Sp. z o.o.
     Senior Software Engineer, July 2016 to August 2016 
     Software Engineer, June 2014 to July 2016
 
-  Motorola Solutions is a global leader in mission-critical communications products, services and solutions. It has offices all around the world whereas Polish offices in Cracow hires over thousand employees.
+  Motorola Solutions is a global leader in mission-critical communications products, 
+  services and solutions. It has offices all around the world whereas Polish offices in Cracow 
+  hires over thousand employees.
+  
   Responsibilities:
     Implementing new features in both Java and Python web applications, which were used to upgrade complex distributed systems.
     Identifying and solving defects.
@@ -54,16 +60,21 @@ EXPERIENCE
     Being part of a scrum team - planning sprints, estimating tasks times, describing and logging tasks using JIRA.
     Supporting Software Integration Tests.
     Providing technical leadership for other developers.
+  
   Achievements
     Optimized unit tests execution by introducing JUnit engine that categorized unit tests into suites.
     Implemented machine to machine mutual certificate authentication and automate certificate generate process.
+  
   Technology Used: Java, Java ServletAPI, JAXB, Hibernate, Spring Core, Wicket, JUnit, JavaScript, jQuery, Python, Bash, PowerShell, HTML, CSS, Bootstrap, XML, JSON, Tomcat, JUnit, Jenkins, Maven, HSQLDB, GIT and IBM ClearCase
 
 
 - SmallGIS Sp. z o.o.
     Java Developer, November 2012 - May 2014
 
-  SmallGIS is a fast growing company specialising in a geographic information systems (GIS), which products are used by companies from both public and private sectors. The company is located in Cracow, Poland and hires about 40 employees.
+  SmallGIS is a fast growing company specialising in a geographic information systems (GIS), 
+  which products are used by companies from both public and private sectors. 
+  The company is located in Cracow, Poland and hires about 40 employees.
+  
   Responsibilities
     Writing fast and maintainable front end code using Java (GWT), JavaScript and jQuery.
     Writing efficient and scalable back end code using GWT-RPC, JSP, JAXB, Java Servlet API.
@@ -71,9 +82,11 @@ EXPERIENCE
     Creating SQL queries for JDBC Drivers.
     Designing Oracle and PostgreSQL databases structure (tables, views, indexes, triggers).
     Estimating tasks times.
+  
   Achievements
     EMUiA - web application implemented for government employees to edit the register of cities, streets and address points in Poland.
     GeoPortal - web application that displays and edits geographical data. Deployed in various units from a public sector, for example: http://atlas.warmia.mazury.pl/mpzp/
+  
   Technology Used: Java, Java Servlet API, JAXB, Hibernate, Google Web Toolkit, JSP, JDBC, SQL, Oracle Database, PostgreSQL, Python, JavaScript, HTML, CSS, Bootstrap, XML, Tomcat, SVN
 
 ADDITIONAL INFORMATION
