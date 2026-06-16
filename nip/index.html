@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>koprowski.io — dane firmowe</title>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --ok: #16a34a;
+      --hover: #f3f4f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --fg: #e6edf3;
+        --muted: #8b949e;
+        --border: #21262d;
+        --accent: #58a6ff;
+        --ok: #3fb950;
+        --hover: #161b22;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+
+    h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 0.25rem;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0 0 2.5rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 2rem 0 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px dashed var(--border);
+    }
+    .row:last-child { border-bottom: none; }
+
+    .field {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+    .key {
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+    .val {
+      color: var(--fg);
+      white-space: pre-line;
+      word-break: break-word;
+    }
+
+    .copy {
+      flex: 0 0 auto;
+      background: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      padding: 3px 5px;
+      margin-top: 1px;
+      cursor: pointer;
+      color: var(--muted);
+      font: inherit;
+      line-height: 1;
+    }
+    .copy:hover {
+      color: var(--fg);
+      background: var(--hover);
+      border-color: var(--border);
+    }
+    .copy svg { width: 15px; height: 15px; display: block; }
+    .copy.done { color: var(--ok); border-color: var(--ok); }
+
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Robert Koprowski IT Consulting</h1>
+    <p class="sub">koprowski.io — dane firmowe</p>
+
+    <h2>// dane kontaktowe</h2>
+    <div class="row"><div class="field"><div class="key">adres</div><div class="val" data-copy="ul. Zielone Wzgórze 15&#10;80-283 Gdańsk">ul. Zielone Wzgórze 15
+80-283 Gdańsk</div></div></div>
+    <div class="row"><div class="field"><div class="key">NIP</div><div class="val" data-copy="9570968306">9570968306</div></div></div>
+    <div class="row"><div class="field"><div class="key">REGON</div><div class="val" data-copy="380925835">380925835</div></div></div>
+
+    <h2>// dane firmowe</h2>
+    <div class="row"><div class="field"><div class="key">nazwa pełna</div><div class="val" data-copy="ROBERT KOPROWSKI IT CONSULTING KOPROWSKI.IO">ROBERT KOPROWSKI IT CONSULTING KOPROWSKI.IO</div></div></div>
+    <div class="row"><div class="field"><div class="key">forma prawna</div><div class="val" data-copy="Indywidualna działalność gospodarcza">Indywidualna działalność gospodarcza</div></div></div>
+    <div class="row"><div class="field"><div class="key">adres rejestrowy</div><div class="val" data-copy="ul. Zielone Wzgórze 15&#10;80-283 Gdańsk">ul. Zielone Wzgórze 15
+80-283 Gdańsk</div></div></div>
+    <div class="row"><div class="field"><div class="key">data rozpoczęcia działalności</div><div class="val" data-copy="06.08.2018">06.08.2018</div></div></div>
+    <div class="row"><div class="field"><div class="key">NIP</div><div class="val" data-copy="9570968306">9570968306</div></div></div>
+    <div class="row"><div class="field"><div class="key">REGON</div><div class="val" data-copy="380925835">380925835</div></div></div>
+
+    <footer>
+      <a href="../">&larr; koprowski.io</a>
+    </footer>
+  </main>
+
+  <template id="ic-copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></template>
+  <template id="ic-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></template>
+
+  <script>
+    (function () {
+      var copyIcon = document.getElementById('ic-copy').innerHTML;
+      var checkIcon = document.getElementById('ic-check').innerHTML;
+
+      function legacyCopy(text) {
+        return new Promise(function (resolve, reject) {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          try {
+            document.execCommand('copy') ? resolve() : reject(new Error('execCommand failed'));
+          } catch (e) {
+            reject(e);
+          } finally {
+            document.body.removeChild(ta);
+          }
+        });
+      }
+
+      function copyText(text) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          return navigator.clipboard.writeText(text).catch(function () { return legacyCopy(text); });
+        }
+        return legacyCopy(text);
+      }
+
+      document.querySelectorAll('[data-copy]').forEach(function (el) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'copy';
+        btn.title = 'Kopiuj';
+        btn.setAttribute('aria-label', 'Kopiuj do schowka');
+        btn.innerHTML = copyIcon;
+
+        btn.addEventListener('click', function () {
+          copyText(el.getAttribute('data-copy')).then(function () {
+            btn.classList.add('done');
+            btn.innerHTML = checkIcon;
+            btn.title = 'Skopiowano!';
+            setTimeout(function () {
+              btn.classList.remove('done');
+              btn.innerHTML = copyIcon;
+              btn.title = 'Kopiuj';
+            }, 1500);
+          });
+        });
+
+        el.closest('.row').appendChild(btn);
+      });
+    })();
+  </script>
+</body>
+</html>
