@@ -116,6 +116,39 @@
     @media (max-width: 520px) {
       .skill-key { flex-basis: 100%; }
     }
+
+    @media print {
+      /* Force a clean light theme for paper/PDF regardless of system mode */
+      :root {
+        --bg: #ffffff;
+        --fg: #000000;
+        --muted: #444444;
+        --border: #cccccc;
+        --accent: #000000;
+        --hover: transparent;
+      }
+      @page { margin: 14mm 16mm; }
+
+      body { font-size: 11px; line-height: 1.45; }
+      main { max-width: none; margin: 0; padding: 0; }
+
+      /* Hide interactive-only bits */
+      .actions, footer { display: none !important; }
+
+      /* Tighten vertical rhythm so it fits nicely on the page */
+      header h1 { font-size: 1.4rem; }
+      h2 { margin: 1.1rem 0 0.5rem; }
+      article { margin-bottom: 0.9rem; }
+
+      /* Keep entries from being split across page breaks */
+      article, .skill-line { break-inside: avoid; page-break-inside: avoid; }
+      h2, h3 { break-after: avoid; page-break-after: avoid; }
+      ul { break-inside: auto; }
+      li { break-inside: avoid; page-break-inside: avoid; }
+
+      a { color: #000; text-decoration: none; }
+      .social-icon { width: 14px; height: 14px; }
+    }
   </style>
 </head>
 <body>
